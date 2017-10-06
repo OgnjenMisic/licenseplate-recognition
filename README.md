@@ -1,6 +1,6 @@
 # licenseplate-recognition
 
-Simple application that detects license plates and recognizes the numbers.
+A simple application that detects license plates and recognizes the numbers.
 
 -- OpenCV 3.3 for image morphology to isolate the parts with the plates
 
