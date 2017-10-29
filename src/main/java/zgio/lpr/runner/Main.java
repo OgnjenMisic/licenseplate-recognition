@@ -6,7 +6,7 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import org.opencv.core.Core;
-import zgio.lpr.controller.LprController;
+import zgio.lpr.controller.ALTRCtrlr;
 
 public class Main extends Application {
     @Override
@@ -18,7 +18,7 @@ public class Main extends Application {
         primaryStage.setScene(scene);
         primaryStage.show();
         try {
-            LprController ctrlr = root.getController();
+            ALTRCtrlr ctrlr = root.getController();
             ctrlr.init();
             primaryStage.setOnCloseRequest(e -> ctrlr.setClosed());
         } catch (Exception ex) {
