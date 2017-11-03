@@ -18,7 +18,7 @@ import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ALTRCtrlr {
+public class ALPRCtrl {
 
 	private static final Size KSIZE_11 = new Size(1, 1);
 	private static final Size KSIZE_33 = new Size(3, 3);

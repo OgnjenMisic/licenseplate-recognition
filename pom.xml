@@ -8,19 +8,18 @@
     <artifactId>lpr</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-<dependencies>
-    <dependency>
-        <groupId>net.sourceforge.tess4j</groupId>
-        <artifactId>tess4j</artifactId>
-        <version>3.4.1</version>
-    </dependency>
-    <!-- move the built opencv jar to .m2/repository/org/opencv/opencv/3.3.1 folder so it can be imported through maven -->
-    <dependency>
-        <groupId>org.opencv</groupId>
-        <artifactId>opencv</artifactId>
-        <version>3.3.1</version>
-    </dependency>
-</dependencies>
+    <dependencies>
+        <dependency>
+            <groupId>net.sourceforge.tess4j</groupId>
+            <artifactId>tess4j</artifactId>
+            <version>3.4.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.opencv</groupId>
+            <artifactId>opencv</artifactId>
+            <version>3.3.1</version>
+        </dependency>
+    </dependencies>
     <build>
         <plugins>
             <plugin>
