@@ -94,7 +94,7 @@ public class ALTRCtrlr {
 			}
 		}
 		ITesseract tesseract = new Tesseract();
-		tesseract.setDatapath("/usr/share/tessdata/");
+		tesseract.setDatapath(System.getenv("TESSDATA_PREFIX"));
 		StringBuilder sb = new StringBuilder();
 		for(Rect letterRect : listOfLetterRects){
 			Mat letter = new Mat(grayPlateMat, letterRect);
