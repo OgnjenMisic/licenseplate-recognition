@@ -14,12 +14,12 @@
         <artifactId>tess4j</artifactId>
         <version>3.4.1</version>
     </dependency>
-    <!-- use locally built opencv 3.3 jar -->
-    <!--<dependency>-->
-        <!--<groupId>org.bytedeco.javacpp-presets</groupId>-->
-        <!--<artifactId>opencv</artifactId>-->
-        <!--<version>3.2.0-1.3</version>-->
-    <!--</dependency>-->
+    <!-- move the built opencv jar to .m2/repository/org/opencv/opencv/3.3.1 folder so it can be imported through maven -->
+    <dependency>
+        <groupId>org.opencv</groupId>
+        <artifactId>opencv</artifactId>
+        <version>3.3.1</version>
+    </dependency>
 </dependencies>
     <build>
         <plugins>
